@@ -4,10 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/shapes.css">
+  <script defer src="./src/shapes/index.ts"></script>
   <title>Practical JS/TS</title>
 </head>
 <body>
-  <h1>Hello Maths From TypeScript World</h1>
-  <script src="./shapes/index.ts"></script>
+  <header>Geometry With TypeScript 💙</header>
+  <main class="main__container">
+    <section class="section__container">
+      <h2>Square 🔲</h2>
+      <label >
+        Size 
+        <input id="sideSquare" type="number" placeholder="10">
+        <span class="unit">cm</span>
+      </label>
+      <div class="buttons">
+        <button id="areaSquare">Area</button>
+        <button id="perimeterSquare">Perimeter</button>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
